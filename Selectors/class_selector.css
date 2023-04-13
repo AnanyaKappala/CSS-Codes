@@ -1,0 +1,28 @@
+/* class selectors*/
+.special{
+    color:red;
+    font-weight: bold;
+}
+/* particular type of element in a class*/
+span.special,li.special{
+    color: violet;
+}
+/* particular child of an element*/
+li em{
+    color:brown;
+}
+/* to select next element of an element, here the changes will occur in p and it is next to h1.*/
+h1+p{
+    font-size: 200%;
+}
+/* pseudo class selector*/
+a:hover{
+    color:black;
+    text-decoration: none;
+}
+/*in this the special element in p will be selected.*/
+body h1+p .special{
+    color: darkblue;
+    background-color: pink;
+    padding: 5px;
+}

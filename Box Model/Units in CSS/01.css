@@ -1,0 +1,22 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html{
+    font-size: 25px;
+}
+div{
+    box-sizing: border-box;
+    color: black;
+    margin-bottom: 4px;
+    padding: 4px;
+    width: 400px;
+}
+.percent{
+    font-size: 200%;
+}
+.em{
+    font-size: 1em;
+}
+.rem{
+    font-size: 1rem;
+}

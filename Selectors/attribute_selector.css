@@ -1,0 +1,12 @@
+/*In this example the li element only which has a class attribute is selected.*/
+li[class]{
+    font-size: 300%;
+}
+/*to select the class in element li which has the value 'a'*/
+li[class="a"]{
+    color: royalblue;
+}
+/*in this you select all the attributes which has 'a' tag*/
+li[class~="a"]{
+    color: red;
+}

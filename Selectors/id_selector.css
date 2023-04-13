@@ -1,0 +1,10 @@
+/*id selector*/
+#heading{
+    color: chartreuse;
+    background-color: black;
+}
+/*id selector only for one particular element.
+  In this all the p tags with id one will be selected only.*/
+p#one{
+    color: rebeccapurple;
+}

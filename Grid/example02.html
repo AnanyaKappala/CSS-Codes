@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example02</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            display: grid;
+            column-gap: 10px;
+            row-gap: 10px;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            height: 500pX;
+
+        }
+
+        #child1,
+        #child2,
+        #child3,
+        #child4,
+        #child5 {
+            background-color: gold;
+            padding: 10px;
+        }
+
+        #child1 {
+            grid-row-start: 1;
+            grid-row-end: 6;
+        }
+
+        #child2 {
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+
+        #child3 {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+
+        #child4 {
+            grid-column-start: 5;
+            grid-column-end: 6;
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+
+        #child5 {
+            grid-column-start: 2;
+            grid-column-end: 6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="child1">Nav</div>
+        <div id="child2">Header</div>
+        <div id="child3">Article</div>
+        <div id="child4">Ads</div>
+        <div id="child5">Footer</div>
+    </div>
+</body>
+
+</html>
